@@ -27,7 +27,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 30) {
-    let txt2 = `*Recientemente se ha degradado un administrador a miembro.*\n\n`;
+    let txt2 = `*Recientemente se ha degradado un administrador a miembro NO LE SUPO.*\n\n`;
     txt2 += `*◦  Grupo:* ${groupName}\n`;
     txt2 += `*◦  Se quitó a:* @${m.messageStubParameters[0].split`@`[0]}\n`;
     txt2 += `*◦  Ejecutado por:* @${m.sender.split`@`[0]}`;
@@ -35,7 +35,7 @@ export async function before(m, {conn, participants}) {
   }
 
   if (chat.detect2 && m.messageStubType == 27) {
-    let txt3 = `*Recientemente se ha incorporado al grupo un nuevo miembro.*\n\n`;
+    let txt3 = `*Recientemente se ha incorporado al grupo un nuevo miembro ¿Gaara o Rock Lee?.*\n\n`;
     txt3 += `*◦  Grupo:* ${groupName}\n`;
     if (!m.sender.endsWith('@g.us')) {
       txt3 += `*◦  Se añadió a:* @${m.messageStubParameters[0].split`@`[0]}\n`;
