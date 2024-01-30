@@ -1,4 +1,4 @@
-// TheMystic-Bot-MD@BrunoSobrino - _antilink2.js
+// TobiBot-MD - _antilink2.js
 
 const linkRegex = /https:/i;
 export async function before(m, {conn, isAdmin, isBotAdmin, text}) {
