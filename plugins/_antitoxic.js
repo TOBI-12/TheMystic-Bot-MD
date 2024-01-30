@@ -1,4 +1,4 @@
-// TheMystic-Bot-MD@BrunoSobrino - _antitoxic.js
+// TobiBot-MD - _antitoxic.js
 
 const toxicRegex = /puto|puta|rata|estupido|imbecil|rctmre|mrd|verga|vrga|maricon/i;
 
