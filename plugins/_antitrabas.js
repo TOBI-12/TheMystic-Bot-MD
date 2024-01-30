@@ -1,5 +1,5 @@
 /**
-TheMystic-Bot-MD@BrunoSobrino - _antitrabas.js
+TobiBot-MD - _antitrabas.js
 By @NeKosmic || https://github.com/NeKosmic/
 **/
 
